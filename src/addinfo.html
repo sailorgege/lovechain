@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src * 'unsafe-inline'; media-src *" />
+	<title>儿童罕见病信息管理系统-信息录入</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/addinfo.js"></script>
+</head>
+<body>
+
+	<div class="headertitle">
+		<img class="header-logo" src="images/logo3s.png" width="736" height="70">
+	</div>
+	<div class="navigation-bar">
+		<span class="ml-20">当前位置：</span><a href="index.html"><span>首页</span></a><span> -> 信息录入</span>
+	</div>
+	
+	<div class="container">
+		<div class="addinfo-box">
+			<form method="post" id="myform" name="myform1" >
+				<div class="input-line">
+					<span>病患类型：</span>
+					<select id="input-type">
+						<option value="0">请选择病患类型</option>
+						<option value="1">瓷娃娃——成骨不全症</option>
+						<option value="2">月亮孩子——白化病</option>
+						<option value="3">黏宝宝——黏多糖贮积症</option>
+						<option value="4">玻璃人——血友病</option>
+						<option value="5">蝴蝶结——结节性硬化症</option>
+					</select>
+				</div>
+				<div class="input-line">
+					<span>姓名：</span>
+					<input type="text" id="input-name" name="input-name" placeholder="请输入名字" value="宝小萌" />
+				</div>
+				<div class="input-line">
+					<span>身份证号码：</span>
+					<input type="text" id="input-id" name="input-id" placeholder="请输入身份证号码" value="21232520100219221092" />
+				</div>
+				<div class="input-line">
+					<span>性别：</span>
+					<select id="input-sex">
+						<option value="0">女</option>
+						<option value="1">男</option>
+					</select>
+				</div>
+				<div class="input-line">
+					<span>出生日期：</span>
+					<input type="text" id="input-birth" name="input-birth" placeholder="请输入出生日期" value="2010年2月19日" />
+				</div>
+				<div class="input-line">
+					<span>联系人：</span>
+					<input type="text" id="input-linkman" name="input-linkman" placeholder="请输入联系人名字" value="宝大萌" />
+				</div>
+				<div class="input-line">
+					<span>联系电话：</span>
+					<input type="text" id="input-phone" name="input-phone" placeholder="请输入联系方式" value="13512349876" />
+				</div>
+				<div class="input-line">
+					<span>地址：</span>
+					<input type="text" id="input-address" name="input-address" placeholder="请输入联系地址" value="北京市朝阳区西大望路22-1" />
+				</div>
+				<div class="input-line">
+					<span>收款信息：</span>
+					<input type="text" id="input-payment" name="input-payment" placeholder="请输入收款账号" value="工商银行322998838728399939383" />
+				</div>
+				<div class="input-line">
+					<span>录入人：</span>
+					<input type="text" id="input-recorder" name="input-recorder" placeholder="请输入记录人姓名" value="艾鑫" />
+				</div>
+				
+				<div class="input-desc">
+					<span>描述：</span>
+					<textarea id="input-desc" name="input-desc" placeholder="请输入描述">宝小萌小朋友需要大家帮助！谢谢好心人！</textarea>
+				</div>
+				
+				
+<!--
+				<div class="input-line">
+					<span>上传文件：</span>
+					<input type="file" id="input-image" name="input-image" placeholder="请选择图片" multiple />
+				</div>
+-->
+				
+				<div>
+				<!--通过按钮调用js方法实现信息提交-->
+				<input type="button" class="input-submit-button" id="input-submit" name="input-submit" value="提交信息" onclick="App.onClickBtnAddInfo()" />
+				</div>
+			</form>
+		</div>
+		
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

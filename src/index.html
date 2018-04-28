@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src * 'unsafe-inline'; media-src *" />
+	<title>儿童罕见病信息管理系统-首页</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+	<div class="headertitle">
+		<img class="header-logo" src="images/logo3s.png" width="736" height="70">
+		<button class="header-add" type="button" onclick="AppMain.onClickBtnAddInfo(this);">信息录入</button>
+	</div>
+	
+	<div class="container">
+		<div class="left-box">
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(0);">全部</button>
+			</div>
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(1);">瓷娃娃-成骨不全症</button>
+			</div>
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(2);">月亮孩子-白化病</button>
+			</div>
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(3);">黏宝宝-黏多糖贮积症</button>
+			</div>
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(4);">玻璃人-血友病</button>
+			</div>
+			<div class="left-item-box">
+				<button type="button" onclick="App.onClickBtnItem(5);">蝴蝶结-结节性硬化症</button>
+			</div>
+		</div>
+		
+		<div id="right-box" class="right-box">
+			<div id="right-item-box-0" class="right-item-box">
+				<div class="right-item-image-box">
+					<img src="images/body-image/body-image-00.jpg" width="150" height="150">
+				</div>
+				<div class="right-item-text-box">
+					<span class="right-item-title">宝小萌</span>
+					<span class="right-item-text">女宝，6岁，瓷娃娃病</span>
+				</div>
+			</div>
+			<div id="right-item-box-1" class="right-item-box"><span>2</span></div>
+			<div id="right-item-box-2" class="right-item-box"><span>3</span></div>
+			<div id="right-item-box-3" class="right-item-box"><span>4</span></div>
+			<div id="right-item-box-4" class="right-item-box"><span>5</span></div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

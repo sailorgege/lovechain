@@ -1,0 +1,260 @@
+.ml-8{
+	margin-left: 8px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.ml-15{
+	margin-left: 15px;
+}
+.ml-20{
+	margin-left: 20px;
+}
+
+.w80{
+	width: 80px;
+}
+.w100{
+	width: 100px;
+}
+.w120{
+	width: 120px !important;
+}
+
+
+.headertitle{
+	float: center;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 0px;
+	background-color: #08729f;
+	margin-bottom: 15px;
+}
+.header-logo{
+	float: left;
+	line-height: 70px;
+	padding-left: 25px;
+	margin-top: 15px;
+}
+.header-add{
+	float: right;
+	width: 150px;
+	height: 50px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #ff3300;
+	text-align: center;
+	border-color: #ff3300;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	opacity: 1.0;
+	margin-top: 25px;
+	margin-right: 10px;
+	outline: none;
+	background-color: #ffffff;
+}
+
+.navigation-bar{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e7e7e7;
+}
+.navigation-bar a{
+	margin-left: 5px;
+	text-decoration:none;
+}
+
+.container{
+	width: 100%;
+	min-height: 300px;
+	margin-bottom: 20px;
+}
+.left-box {
+	float: left;
+	width: 25%;
+	min-height: 600px;
+	border-right-color: #a2a0a0;
+	border-right-style: solid;
+	border-right-width: 1px;
+	background-color: #fcfcfc;
+}
+.left-item-box {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 2px;
+}
+.left-item-box span {
+	color: #1a0060;
+	font-size: 16px;
+	margin-left: 15px;
+}
+.left-item-box button {
+	width: 98%;
+	height: 100%;
+	text-align: left;
+	padding-left: 15px;
+	color: #1a0060;
+	font-size: 16px;
+	margin-left: 0px;
+}
+.right-box {
+	float: left;
+	width: 73%;
+	min-height: 600px;
+	background-color: #f6f7f7;
+}
+.right-item-box {
+	float: left;
+	width: 152px;
+	height: 220px;
+	padding-top: 1px;
+	padding-left: 1px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #e3e3e6;
+}
+.right-item-image-box {
+	width: 150px;
+	height: 150px;
+	background-color: white;
+}
+.right-item-text-box {
+	width: 150px;
+	height: 68px;
+	background-color: white;
+}
+.right-item-title {
+	float: left;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 5px;
+}
+.right-item-text {
+	float: left;
+	width: 100%;
+	line-height: 20px;
+	color: #878787;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 0px;
+}
+
+.addinfo-box{
+	width: 90%;
+	min-height: 200px;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-color: #cdc9c9;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 1px;
+}
+.input-line{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 8px;
+}
+.input-line span{
+	float: left;
+	min-width: 100px !important;
+	text-align: right;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.input-line input{
+	width: 250px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.input-line select{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.input-desc{
+	width: 70%;
+	height: 150px;
+	line-height: 35px;
+	margin-top: 8px;
+}
+.input-desc span{
+	float: left;
+	min-width: 100px !important;
+	text-align: right;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.input-desc textarea{
+	width: 350px;
+	height: 100px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.input-submit-button{
+	width: 125px;
+	height: 35px;
+	font-size: 16px;
+	color: white;
+	background-color: #ff3300;
+	border-color: #a7a7a7;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 25px;
+	margin-left: 65px;
+	margin-bottom: 25px;
+}
+
+
+.detailinfo-box{
+	width: 90%;
+	min-height: 900px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 50px;
+	border-color: #cdc9c9;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 1px;
+	text-align: center;
+}
+.detailinfo-image-box{
+	width: 100%;
+	min-height: 300px;
+	margin-top: 25px;
+}
+.detailinfo-text-box {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.detailinfo-title {
+	float: left;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 5px;
+}
+.detailinfo-text {
+	float: left;
+	width: 100%;
+	line-height: 30px;
+	color: #878787;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+
+
